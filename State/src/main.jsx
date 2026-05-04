@@ -1,11 +1,11 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 
-import TodoList from "./components/todo/TodoList";
+import RoutingTest2 from "./test/RoutingTest2";
 
 const root = createRoot(document.getElementById("root"));
 root.render(
   <StrictMode>
-    <TodoList />
+    <RoutingTest2 />
   </StrictMode>
 );
